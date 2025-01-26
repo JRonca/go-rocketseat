@@ -1,12 +1,11 @@
-package loops
+package main
 
 import "fmt"
 
 func main() {
-	var res int
-	var i int
-	for ; i < 10; i++ {
-		res++
-	}
-	fmt.Println(res)
+  var res int
+  for i := 0; i < 10; i++ {
+    res++
+  }
+  fmt.Println(res)
 }
