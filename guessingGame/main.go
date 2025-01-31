@@ -44,7 +44,7 @@ func main() {
 				"Parabéns você acertou o número que era: %d\n"+
 					"Você acertou em %d tentativas.\n"+
 					"Essas foram suas tentativas: %v\n",
-				x, i+1, chutes,
+				x, i+1, chutes[:i],
 			)
 			return
 		}
